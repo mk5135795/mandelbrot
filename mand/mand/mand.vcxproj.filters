@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\fractals">
+      <UniqueIdentifier>{1c86eae6-def4-4c60-a459-96de9a30fdf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fractals">
+      <UniqueIdentifier>{550f2f25-3366-46e3-bf0e-6a5fbfc7a052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\colors">
+      <UniqueIdentifier>{65683cfd-1afc-498a-99af-e2ad31fa5ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\colors">
+      <UniqueIdentifier>{39173e87-9c22-4c72-b741-adb6227b2cc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalSetGraphic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BurningShipSet.cpp">
+      <Filter>Source Files\fractals</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalSet.cpp">
+      <Filter>Source Files\fractals</Filter>
+    </ClCompile>
+    <ClCompile Include="JuliaSet.cpp">
+      <Filter>Source Files\fractals</Filter>
+    </ClCompile>
+    <ClCompile Include="MandelbrotSet.cpp">
+      <Filter>Source Files\fractals</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalColorHSV.cpp">
+      <Filter>Source Files\colors</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalColorRGB.cpp">
+      <Filter>Source Files\colors</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedFractalColor.cpp">
+      <Filter>Source Files\colors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Workers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalSetGraphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BurningShipSet.h">
+      <Filter>Header Files\fractals</Filter>
+    </ClInclude>
+    <ClInclude Include="Fractals.h">
+      <Filter>Header Files\fractals</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalSet.h">
+      <Filter>Header Files\fractals</Filter>
+    </ClInclude>
+    <ClInclude Include="JuliaSet.h">
+      <Filter>Header Files\fractals</Filter>
+    </ClInclude>
+    <ClInclude Include="MandelbrotSet.h">
+      <Filter>Header Files\fractals</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalColor.h">
+      <Filter>Header Files\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalColorHSV.h">
+      <Filter>Header Files\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalColorRGB.h">
+      <Filter>Header Files\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedFractalColor.h">
+      <Filter>Header Files\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalColors.h">
+      <Filter>Header Files\colors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
